@@ -5,22 +5,22 @@
  Git Workflow
 
 # 1. Skift til dev-branch
- git checkout dev
+ - git checkout dev
 
 # 2. Tjek ændringer
- git status
+ - git status
 
 # 3. Tilføj og commit ændringer
- git add .
- git commit -m "Beskriv ændringerne her"
+ - git add .
+ - git commit -m "Beskriv ændringerne her"
 
 # 4. Push til dev-branch
- git push origin dev
+ - git push origin dev
 
 # Deployment til GitHub Pages
 
 # Når du vil opdatere live-sitet:
- npm run deploy
+ - npm run deploy
 
  - Dette bygger først projektet (npm run build)
  - Pusher kun build/ mappen til build-branch
@@ -30,9 +30,9 @@
 # Valgfrit: Opdater main
 
 # Hvis du vil synkronisere stabil version med dev:
- git checkout main
- git merge dev
- git push origin main
+ - git checkout main
+ - git merge dev
+ - git push origin main
 
 # Tips:
  - Arbejd altid på dev
